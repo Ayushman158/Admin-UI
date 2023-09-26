@@ -1,0 +1,7 @@
+.search {
+  margin: 0 auto; 
+  text-align: center; 
+  margin-top: 80px;
+  margin-bottom: 0px;
+  width: 80% !important; /* Add !important to override conflicting styles */
+}

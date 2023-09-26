@@ -1,0 +1,26 @@
+.userlist-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0
+}
+
+.table-container {
+  width: 80%; /* Adjust the width as needed */
+  overflow-x: auto; /* Enable horizontal scrolling if table exceeds container width */
+  max-height: 100vh; /* Adjust the max-height as needed */
+  margin-bottom: 100px;
+}
+
+.table {
+  width: 100%; /* Make the table fill its container */
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
